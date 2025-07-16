@@ -1,5 +1,7 @@
 import CartButton from "./CartButton";
 import Container from "./Container";
+import DarkMode from "./DarkMode";
+import LinksDropdown from "./LinksDropdown";
 import Logo from "./Logo";
 import NavSearch from "./NavSearch";
 
@@ -11,8 +13,8 @@ const Navbar = () => {
         <NavSearch />
         <div className="flex gap-4 items-center">
           <CartButton />
-          {/* <DarkMode /> */}
-          {/* <LinksDropdown /> */}
+          <DarkMode />
+          <LinksDropdown />
         </div>
       </Container>
     </nav>
